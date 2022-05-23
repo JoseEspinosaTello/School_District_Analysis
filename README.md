@@ -54,8 +54,47 @@ After complete a complete analysis of the school district and return valuable bu
 	![avg_math_score](https://github.com/JoseEspinosaTello/School_District_Analysis/blob/main/Resources/avg_math_score.png)
 
 	![avg_reading_score](https://github.com/JoseEspinosaTello/School_District_Analysis/blob/main/Resources/avg_reading_score.png)
+
+		The removal of all the ninth-grade scores results in NaN listed for both categories under the ninth-grade students.
 		
 		
 	- Scores by school spending
+
+		Thomas Highs School has a budget of $638 per studnent and the scores were not affected for its spending range ($631 - $645).
+
+	(Spending summary did not change)
+
+	![spending_summary_df](https://github.com/JoseEspinosaTello/School_District_Analysis/blob/main/Resources/spending_summary_df.png)
+
+	
 	- Scores by school size
+
+		Thomas High School has a total 1635 student and sits in the Medium (1000 - 1999) range.
+
+	(Size summary did not change)
+
+	![size_summary_df](https://github.com/JoseEspinosaTello/School_District_Analysis/blob/main/Resources/size_summary_df.png)
+
+		
 	- Scores by school type
+
+		Thomas High School is a charter school and the changes did not affect the average scores of charter schools.
+
+	(Type summary did not change)
+
+	![Type_summary_df](https://github.com/JoseEspinosaTello/School_District_Analysis/blob/main/Resources/Type_summary_df.png)
+
+## Summary:
+
+Overall the suspected academic dishonesty was insignificant towards the analysis results. However, even though the changes did not affect the finaly results, there were some noticable differences:
+
+	- Reading scores now show NaN for Thomas High School ninth-graders
+	- Math scores now show NaN for Thomas High School ninth-graders
+	- Revised code for formating district_sumamry_df uses {:.1f} which rounds to the tenth decimal place while the old code uses {:.0f} which rounds to the nearest whole number.
+	- Revised code per_school_summary_df will show incorrect values before any changes are made. If anyone wishes to further evaluate the altered code the must be aware of the changes that must be applied otherwise their analysis could be incorrect
+
+	(per_school_summary_df immediatly after removing ninth-graders)
+	![per_school_summary_df_wrong](https://github.com/JoseEspinosaTello/School_District_Analysis/blob/main/Resources/per_school_summary_df_wrong.png)
+
+
+ The removal of all ninth-graders from Thomas High School did not cause major changes to the scores, percentages, or budegeting analysis. We have concluded that after removing the Thomas High School ninth-grade math and reading scores the same budgeting decisions can be made, as all scores remained mostly unchanged. This is the best possible outcome for the school board as the academic dishonesty failed to do what it was intended for; altering the average school scores and favorably influencing the budgeting decisions.
