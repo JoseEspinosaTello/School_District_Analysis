@@ -23,7 +23,7 @@ After complete a complete analysis of the school district and return valuable bu
 
 - How is the school summary affected?
 
-The School Summary Dataframe did not see any major changes after the update.
+	The School Summary Dataframe did not see any major changes after the update.
 
 	(Original School Summary Dataframe)
 	![per_school_summary_df](https://github.com/JoseEspinosaTello/School_District_Analysis/blob/main/Resources/per_school_summary_df.png)
@@ -45,10 +45,10 @@ The School Summary Dataframe did not see any major changes after the update.
 
 	![top_five_new](https://github.com/JoseEspinosaTello/School_District_Analysis/blob/main/Resources/top_five_new.png)
 
-Thomas Highs School sat at number two during the original analysis based on “% Overall Score”. Since the “% Overall Score”, or any scores did not experience much change, the school position remained the same.
+	Thomas Highs School sat at number two during the original analysis based on “% Overall Score”. Since the “% Overall Score”, or any scores did not experience much change, the school position remained the same.
 
-	- How does replacing the ninth-grade scores affect the following:
-		- Math and reading scores by grade
-		- Scores by school spending
-		- Scores by school size
-		- Scores by school type
+- How does replacing the ninth-grade scores affect the following:
+	- Math and reading scores by grade
+	- Scores by school spending
+	- Scores by school size
+	- Scores by school type
