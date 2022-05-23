@@ -50,7 +50,10 @@ After complete a complete analysis of the school district and return valuable bu
 - How does replacing the ninth-grade scores affect the following:
 	- Math and reading scores by grade
 		The math and reading scores were completely removed and replaced with a NaN (Not a Number) value.
-	![avg_math_score](https://github.com/JoseEspinosaTello/School_District_Analysis/blob/main/Resources/avg_math_score.png) ![avg_reading_score](https://github.com/JoseEspinosaTello/School_District_Analysis/blob/main/Resources/avg_reading_score.png)
+
+	![avg_math_score](https://github.com/JoseEspinosaTello/School_District_Analysis/blob/main/Resources/avg_math_score.png)
+
+	![avg_reading_score](https://github.com/JoseEspinosaTello/School_District_Analysis/blob/main/Resources/avg_reading_score.png)
 		
 		
 	- Scores by school spending
