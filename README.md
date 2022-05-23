@@ -93,10 +93,10 @@ After complete a complete analysis of the school district and return valuable bu
 
 Overall the suspected academic dishonesty was insignificant towards the analysis results. However, even though the changes did not affect the finaly results, there were some noticeable differences:
 
-	- Reading scores now show NaN for Thomas High School ninth-graders
-	- Math scores now show NaN for Thomas High School ninth-graders
-	- Revised code for formating district_sumamry_df uses {:.1f} which rounds to the tenth decimal place while the old code uses {:.0f} which rounds to the nearest whole number.
-	- Revised code per_school_summary_df will show incorrect values before any changes are made. If anyone wishes to further evaluate the altered code the must be aware of the changes that must be applied otherwise their analysis could be incorrect.
+- Reading scores now show NaN for Thomas High School ninth-graders
+- Math scores now show NaN for Thomas High School ninth-graders
+- Revised code for formating district_sumamry_df uses {:.1f} which rounds to the tenth decimal place while the old code uses {:.0f} which rounds to the nearest whole number.
+- Revised code per_school_summary_df will show incorrect values before any changes are made. If anyone wishes to further evaluate the altered code the must be aware of the changes that must be applied otherwise their analysis could be incorrect.
 
 
 (per_school_summary_df immediatly after removing ninth-graders)
