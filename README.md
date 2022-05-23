@@ -82,13 +82,16 @@ After complete a complete analysis of the school district and return valuable bu
 
 		Thomas High School is a charter school and the changes did not affect the average scores of charter schools.
 
+	
+
 	(Type summary did not change)
 
 	![Type_summary_df](https://github.com/JoseEspinosaTello/School_District_Analysis/blob/main/Resources/Type_summary_df.png)
 
+
 ## Summary:
 
-Overall the suspected academic dishonesty was insignificant towards the analysis results. However, even though the changes did not affect the finaly results, there were some noticable differences:
+Overall the suspected academic dishonesty was insignificant towards the analysis results. However, even though the changes did not affect the finaly results, there were some noticeable differences:
 
 	- Reading scores now show NaN for Thomas High School ninth-graders
 	- Math scores now show NaN for Thomas High School ninth-graders
