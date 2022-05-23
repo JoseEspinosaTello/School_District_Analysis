@@ -49,13 +49,15 @@ After complete a complete analysis of the school district and return valuable bu
 
 - How does replacing the ninth-grade scores affect the following:
 	- Math and reading scores by grade
+
 		The math and reading scores were completely removed and replaced with a NaN (Not a Number) value.
 
 	![avg_math_score](https://github.com/JoseEspinosaTello/School_District_Analysis/blob/main/Resources/avg_math_score.png)
 
 	![avg_reading_score](https://github.com/JoseEspinosaTello/School_District_Analysis/blob/main/Resources/avg_reading_score.png)
 
-		The removal of all the ninth-grade scores results in NaN listed for both categories under the ninth-grade students.
+		
+	The removal of all the ninth-grade scores results in NaN listed for both categories under the ninth-grade students.
 		
 		
 	- Scores by school spending
@@ -92,6 +94,7 @@ Overall the suspected academic dishonesty was insignificant towards the analysis
 	- Math scores now show NaN for Thomas High School ninth-graders
 	- Revised code for formating district_sumamry_df uses {:.1f} which rounds to the tenth decimal place while the old code uses {:.0f} which rounds to the nearest whole number.
 	- Revised code per_school_summary_df will show incorrect values before any changes are made. If anyone wishes to further evaluate the altered code the must be aware of the changes that must be applied otherwise their analysis could be incorrect
+
 
 	(per_school_summary_df immediatly after removing ninth-graders)
 	![per_school_summary_df_wrong](https://github.com/JoseEspinosaTello/School_District_Analysis/blob/main/Resources/per_school_summary_df_wrong.png)
